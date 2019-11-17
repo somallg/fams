@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="FAMS1">
+		<class>com.fsoft.entities.Enroll</class>
+		<class>com.fsoft.entities.Schedule</class>
+		<class>com.fsoft.entities.User</class>
+		<class>com.fsoft.entities.Courselearn</class>
+		<class>com.fsoft.entities.CourselearnPK</class>
+		<class>com.fsoft.entities.Clazz</class>
+		<class>com.fsoft.entities.Course</class>
+		<class>com.fsoft.entities.LearningPath</class>
+		<class>com.fsoft.entities.Trainee</class>
+		<class>com.fsoft.entities.Trainer</class>
+        <class>com.fsoft.entities.UsersRole</class>
+    
+	</persistence-unit>
+</persistence>

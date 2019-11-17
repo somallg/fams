@@ -1,0 +1,70 @@
+@CHARSET "ISO-8859-1";
+
+.dWRAP2 {
+	border: 0px solid red;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.dLabel1 {
+	height: 40px;
+	vertical-align: middle;
+	line-height: 40px;
+	font-family: Microsoft Sans Serif;
+	font-weight: bold;
+	font-size: 15px;
+ 	border-bottom: 2px solid #E0E0E0;
+ 	padding-left: 2%;
+}
+
+.dLabel2 {
+	width: 30%;
+	background-color: #F0F0F0;
+	font-size: 13px;
+}
+
+.dLabel2, .dValue1 {
+	padding-left: 5px;
+}
+
+.dValue1>select {
+	width: 160px;
+	border-radius: 2px;
+	border: 1px solid #E0E0E0;
+	height: 20px;
+}
+
+.dButton {
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+ 	width: 93px;
+	height: 25px;
+	/* border: 0px solid #E0E0E0; */ */
+/* 	border-radius: 2px;
+	cursor: pointer; */
+}
+
+table {
+	height: 350px;
+	width: 90%;
+	border-collapse: collapse;
+	margin: auto;
+	margin-top: 2%;
+}
+
+table, tr, td {
+	border: 1px solid #C8C8C8;
+}
+
+.dValue1>input {
+	border-radius: 2px;
+	border: 1px solid #E0E0E0;
+	height: 17px;
+}
