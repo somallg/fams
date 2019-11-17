@@ -1,2 +1,0 @@
-# fams
-FA Management System
