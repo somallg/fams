@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+.mentor{
+	border: 0px solid; 
+	margin-left: 80px;
+	height: 150px;
+}
+.mentor td{
+	/* padding: 20x; */
+}

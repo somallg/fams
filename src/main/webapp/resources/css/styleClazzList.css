@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+
+.course-search {
+	width: 100%;
+	border: 0px solid;
+	margin: auto;
+}
+
+.rowTitle {
+	height: 30px;
+	width: 100%;
+	font-family: Candana;
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 30px;
+	text-indent: 10px;
+	border-bottom: 1px solid #B8B8B8;
+}
+
+.rowContent {
+	margin-top: 10px;
+}
+
+.clazzMenu {
+	font-size: 13px;
+}
+
+.table3, .table3 tr, .table3 td, .table3 th {
+	font-family: Candana;
+	font-size: 12px;
+	border: 1px solid #e5e5cc;
+	padding: 3px;
+	border-collapse: collapse;
+}
+
+.table3 {
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.table3-update {
+	width: 96%;
+}
+
+.table3 tr {
+	padding: 5px;
+}
+
+.table3 tr:nth-child(odd) {
+	background-color: #F0F0F0;
+}
+
+.table3 thead tr:nth-child(1) {
+	background-color: #3399ff;
+	height: 30px;
+}
+
+.table3 th:nth-child(2) {
+	width: 10%;
+}
+
+.table3 th:nth-child(3) {
+	width: 15%;
+}
+
+.table3 th:nth-child(4) {
+	width: 10%;
+}
+
+.table3 th:nth-child(5) {
+	width: 10%;
+}
+
+.table3 th:nth-child(6) {
+	width: 15%;
+}
+
+.table3 th:nth-child(7) {
+	width: 15%;
+}
+
+/* pagination */
+.currentPage {
+	height: 38px;
+	width: 50px;
+	border: 1px solid #d6d6c2;
+	text-align: center;
+	font-size: 11px;
+}
+
+.previous {
+	padding-right: 5px;
+}
+
+.next {
+	padding-left: 5px;
+}
+
+.page {
+	padding: 0 10px 0 100px;
+}
+
+#searchForm {
+	width: 95%;
+	margin: auto;
+	border: 0px solid;
+	font-size: 12px;
+}
+
+#searchForm input[type="text"] {
+	font-size: 12px;
+}
+
+fieldset.scheduler-border {
+	width: 100%;
+	border: 1px groove #d6d6c2 !important;
+	padding: 0 1.4em 1.4em 1.4em !important;
+	margin: 0 0 1.5em 0 !important;
+	-webkit-box-shadow: 0px 0px 0px 0px #000;
+	box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+	font-size: 13px !important;
+	font-weight: bold !important;
+	text-align: left !important;
+	width: auto;
+	padding: 0 1px;
+	border-bottom: none;
+}
