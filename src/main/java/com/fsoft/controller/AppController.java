@@ -181,4 +181,9 @@ public class AppController {
     return page;
   }
 
+  @RequestMapping(value = "/test", method = RequestMethod.GET)
+  public String test(@PathVariable("page") String page, Model model) {
+	// Test
+  }
+
 }
