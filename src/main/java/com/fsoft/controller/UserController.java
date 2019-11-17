@@ -136,4 +136,11 @@ public class UserController {
     modelAndView.setViewName("error");
     return modelAndView;
   }
+
+
+  @RequestMapping(value = "/accessdenied3", method = RequestMethod.GET)
+  public String loginerror3(ModelMap model) {
+    model.addAttribute("error", "true");
+    return "denied";
+  }
 }
