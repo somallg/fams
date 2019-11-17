@@ -1,0 +1,4 @@
+@Controller
+public TestController{
+
+}
