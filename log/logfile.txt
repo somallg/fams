@@ -29,3 +29,5 @@
 2018-08-15 16:16:48,307  INFO [main] - com.fsoft.utils.Log4J.home 35 - Redirect the user to sign-in page.
 
 Change this file by DieuNT1
+
+Change2
